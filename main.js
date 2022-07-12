@@ -1,4 +1,5 @@
 // exercise level 1
+// que 1
 let age = prompt("enter your age:");
 const driveAge = 18;
 if (age >= driveAge) {
@@ -6,7 +7,7 @@ if (age >= driveAge) {
 } else {
   alert(`You are left with ${driveAge - age} years to drive.`);
 }
-
+// que 2
 let yourAge = prompt("enter your age:");
 const myAge = 24;
 if (yourAge > myAge) {
@@ -16,7 +17,7 @@ if (yourAge > myAge) {
 } else {
   alert("we are age mates");
 }
-
+// que 3
 let a = 4;
 let b = 3;
 if (a > b) {
@@ -24,16 +25,15 @@ if (a > b) {
 } else {
   console.log("a is less than b");
 }
-
+// que 4
 let num = prompt("Enter a number:");
-
 if (num % 2 === 0) {
   alert(`${num} is an even number`);
 } else {
   alert(`${num} is an odd number`);
 }
-
 // exercise level 2
+// que 1
 let grade = prompt("enter score");
 if (grade >= 80) {
   alert("A");
@@ -46,7 +46,7 @@ if (grade >= 80) {
 } else {
   alert("F");
 }
-
+// que 2
 let month = prompt("enter month:");
 switch (month) {
   case "september":
@@ -69,16 +69,13 @@ switch (month) {
   case "august":
     alert(`the season is summer`);
 }
-
+// que 3
 let day = prompt("what is the day today:");
-day = day.toLowerCase();
-
-if ((day == "saturday") | "sunday") {
+if ((day.toLowerCase() == "saturday") | "sunday") {
   alert(`${day} is a weekend`);
 } else {
   alert(`${day} is a working day`);
 }
-
 // exercise level 3
 let daysNum = prompt("enter a month");
 daysNum = daysNum.toLocaleLowerCase();
